@@ -36,8 +36,14 @@ contract Staker {
       emit Stake(msg.sender, msg.value);
   }
 
+  // Modifier to check if the ExampleExternalContract is not completed
+  modifier notCompleted() {
+      require(!exampleExternalContract.completed(), "Contract already completed");
+      _;
+  }
+
   // Function to execute the contract logic after the deadline
-  function execute() public {
+  function execute() public notCompleted {
       require(block.timestamp >= deadline, "Deadline not reached");
       if (address(this).balance >= threshold) {
           exampleExternalContract.complete{value: address(this).balance}();
@@ -47,7 +53,7 @@ contract Staker {
   }
 
   // Function to allow users to withdraw their staked Ether if the threshold is not met
-  function withdraw() public {
+  function withdraw() public notCompleted {
       require(openForWithdraw, "Withdrawals are not open");
       uint256 balance = balances[msg.sender];
       require(balance > 0, "No balance to withdraw");
