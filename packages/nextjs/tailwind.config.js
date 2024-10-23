@@ -11,15 +11,15 @@ module.exports = {
         light: {
           primary: "#FFFFFF", // White
           "primary-content": "#000000", // Black
-          secondary: "#F0F0F0", // Light gray
+          secondary: "#E0E0E0", // Darker light gray
           "secondary-content": "#000000", // Black
           accent: "#000000", // Black
           "accent-content": "#FFFFFF", // White
-          neutral: "#F0F0F0", // Light gray
+          neutral: "#E0E0E0", // Darker light gray
           "neutral-content": "#000000", // Black
           "base-100": "#FFFFFF", // White
-          "base-200": "#F0F0F0", // Light gray
-          "base-300": "#E0E0E0", // Lighter gray
+          "base-200": "#E0E0E0", // Darker light gray
+          "base-300": "#C0C0C0", // Even darker light gray
           "base-content": "#000000", // Black
           info: "#000000", // Black
           success: "#000000", // Black
