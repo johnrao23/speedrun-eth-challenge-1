@@ -32,3 +32,8 @@ p {
 .btn.btn-ghost {
   @apply shadow-none;
 }
+
+/* Custom class for light mode background */
+[data-theme="light"] .light-mode-bg {
+  background-color: #ffffff; /* White */
+}
