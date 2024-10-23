@@ -17,7 +17,7 @@ const Home: NextPage = () => {
             alt="challenge banner"
             className="rounded-xl border-4 border-primary"
           />
-          <div className="max-w-3xl">
+          <div className="max-w-4xl">
             <p className="text-center text-lg mt-8">
               🦸 A superpower of Ethereum is allowing you, the builder, to create a simple set of rules that an
               adversarial group of players can use to work together. In this challenge, you create a decentralized
