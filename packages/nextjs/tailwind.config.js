@@ -9,22 +9,22 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "#C8F5FF",
-          "primary-content": "#026262",
-          secondary: "#89d7e9",
-          "secondary-content": "#088484",
-          accent: "#026262",
-          "accent-content": "#E9FBFF",
-          neutral: "#088484",
-          "neutral-content": "#F0FCFF",
-          "base-100": "#F0FCFF",
-          "base-200": "#E1FAFF",
-          "base-300": "#C8F5FF",
-          "base-content": "#088484",
-          info: "#026262",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
+          primary: "#FFFFFF", // White
+          "primary-content": "#000000", // Black
+          secondary: "#F0F0F0", // Light gray
+          "secondary-content": "#000000", // Black
+          accent: "#000000", // Black
+          "accent-content": "#FFFFFF", // White
+          neutral: "#F0F0F0", // Light gray
+          "neutral-content": "#000000", // Black
+          "base-100": "#FFFFFF", // White
+          "base-200": "#F0F0F0", // Light gray
+          "base-300": "#E0E0E0", // Lighter gray
+          "base-content": "#000000", // Black
+          info: "#000000", // Black
+          success: "#000000", // Black
+          warning: "#000000", // Black
+          error: "#000000", // Black
 
           "--rounded-btn": "9999rem",
 
@@ -41,22 +41,22 @@ module.exports = {
       },
       {
         dark: {
-          primary: "#026262",
-          "primary-content": "#C8F5FF",
-          secondary: "#107575",
-          "secondary-content": "#E9FBFF",
-          accent: "#C8F5FF",
-          "accent-content": "#088484",
-          neutral: "#E9FBFF",
-          "neutral-content": "#11ACAC",
-          "base-100": "#11ACAC",
-          "base-200": "#088484",
-          "base-300": "#026262",
-          "base-content": "#E9FBFF",
-          info: "#C8F5FF",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
+          primary: "#000000", // Black
+          "primary-content": "#FFFFFF", // White
+          secondary: "#1A1A1A", // Dark gray
+          "secondary-content": "#FFFFFF", // White
+          accent: "#FFFFFF", // White
+          "accent-content": "#000000", // Black
+          neutral: "#1A1A1A", // Dark gray
+          "neutral-content": "#FFFFFF", // White
+          "base-100": "#000000", // Black
+          "base-200": "#1A1A1A", // Dark gray
+          "base-300": "#333333", // Darker gray
+          "base-content": "#FFFFFF", // White
+          info: "#FFFFFF", // White
+          success: "#FFFFFF", // White
+          warning: "#FFFFFF", // White
+          error: "#FFFFFF", // White
 
           "--rounded-btn": "9999rem",
 
