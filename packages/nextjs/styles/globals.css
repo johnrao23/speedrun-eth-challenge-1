@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&display=swap"); /* New font import */
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
@@ -11,6 +11,7 @@
 
 body {
   min-height: 100vh;
+  font-family: "Lora", serif; /* Apply new font */
 }
 
 h1,
@@ -19,6 +20,7 @@ h3,
 h4 {
   margin-bottom: 0.5rem;
   line-height: 1;
+  font-family: "Lora", serif; /* Apply new font */
 }
 
 p {
