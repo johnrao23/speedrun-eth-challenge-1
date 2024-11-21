@@ -77,7 +77,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "space-grotesk": ["Space Grotesk", "sans-serif"],
+        sans: ["Poppins", "sans-serif"],
       },
       boxShadow: {
         center: "0 0 12px -2px rgb(0 0 0 / 0.05)",
