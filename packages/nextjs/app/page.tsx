@@ -6,8 +6,8 @@ const Home: NextPage = () => {
     <div className="flex items-center flex-col flex-grow pt-10 light-mode-bg">
       <div className="px-5 w-[90%] md:w-[75%]">
         <h1 className="text-center mb-6">
-          <span className="block text-2xl mb-2">SpeedRunEthereum</span>
-          <span className="block text-4xl font-bold">Challenge #1: 🔏 Decentralized Staking App</span>
+          <span className="block text-2xl mb-2">MyCryptoProject</span>
+          <span className="block text-4xl font-bold">Decentralized Staking</span>
         </h1>
         <div className="flex flex-col items-center justify-center">
           <Image
@@ -19,19 +19,19 @@ const Home: NextPage = () => {
           />
           <div className="max-w-4xl">
             <p className="text-center text-lg mt-8">
-              🦸 A superpower of Ethereum is allowing you, the builder, to create a simple set of rules that an
-              adversarial group of players can use to work together. In this challenge, you create a decentralized
-              application where users can coordinate a group funding effort. If the users cooperate, the money is
-              collected in a second smart contract. If they defect, the worst that can happen is everyone gets their
-              money back. The users only have to trust the code.
+              🚀 Embarking on my crypto journey, I have built this app to explore the power of Ethereum. This project
+              allows users to engage in a collaborative funding effort, demonstrating how decentralized applications can
+              bring people together. If users work in harmony, funds are pooled into a smart contract. If not, everyone
+              simply gets their funds back. Trust is placed in the code, not individuals.
             </p>
             <p className="text-center text-lg">
-              🌟 The final deliverable is deploying a Dapp that lets users send ether to a contract and stake if the
-              conditions are met, then deploy your app to a public webserver. Submit the url on{" "}
-              <a href="https://speedrunethereum.com/" target="_blank" rel="noreferrer" className="underline">
-                SpeedRunEthereum.com
+              🌟 The culmination of my learning is this Dapp, enabling users to send ether to a contract and stake under
+              specific conditions. I have deployed it to a public webserver to share my progress. Check out all of my
+              work on{" "}
+              <a href="https://johnrao.com/" target="_blank" rel="noreferrer" className="underline">
+                JohnRao.com
               </a>{" "}
-              !
+              and join me on this exciting journey!
             </p>
           </div>
         </div>
